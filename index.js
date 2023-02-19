@@ -24,12 +24,14 @@ function getRandomChar() {
 function generate() {
     
     let randomPassword = " "
+    let randomPassword1= " "
     for (let i = 0; i < pwordLength; i++) {
-        randomPassword += getRandomChar()         
+        randomPassword += getRandomChar()     
+        randomPassword1 += getRandomChar()
     }
     
     document.getElementById("pass1-el").value = randomPassword
-    document.getElementById("pass2-el").value = randomPassword
+    document.getElementById("pass2-el").value = randomPassword1
     
 }
 
