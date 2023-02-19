@@ -13,7 +13,7 @@ let pwordLength = 12;
 
 
 function getRandomChar() {
-    let randomChar , randomChar1 = Math.floor(Math.random()* characters.length)
+    let randomChar  = Math.floor(Math.random()* characters.length)
     return characters[randomChar]
 }
 
